@@ -1,0 +1,2116 @@
+CRITICAL - 2025-05-05 07:55:52 --> TypeError: App\Controllers\Home::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 07:57:09 --> TypeError: App\Controllers\Home::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 07:57:09 --> TypeError: App\Controllers\Home::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 07:57:09 --> TypeError: App\Controllers\Home::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 07:57:09 --> TypeError: App\Controllers\Home::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 07:57:47 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "/resep" cannot be found.
+[Method: GET, Route: /]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 63.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/resep')
+ 2 SYSTEMPATH\Common.php(855): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Home.php(10): redirect('/resep')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 07:57:48 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "/resep" cannot be found.
+[Method: GET, Route: /]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 63.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/resep')
+ 2 SYSTEMPATH\Common.php(855): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Home.php(10): redirect('/resep')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 07:57:48 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "/resep" cannot be found.
+[Method: GET, Route: /]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 63.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/resep')
+ 2 SYSTEMPATH\Common.php(855): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Home.php(10): redirect('/resep')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 07:57:48 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "/resep" cannot be found.
+[Method: GET, Route: /]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 63.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/resep')
+ 2 SYSTEMPATH\Common.php(855): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Home.php(10): redirect('/resep')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 07:57:48 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "/resep" cannot be found.
+[Method: GET, Route: /]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 63.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/resep')
+ 2 SYSTEMPATH\Common.php(855): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Home.php(10): redirect('/resep')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 08:01:30 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: resep]
+in APPPATH\Views\resep\index.php on line 22.
+ 1 APPPATH\Views\resep\index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\index.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/index', [], true)
+ 5 APPPATH\Controllers\Resep.php(22): view('resep/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Resep->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 08:02:20 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: resep]
+in APPPATH\Views\resep\index.php on line 24.
+ 1 APPPATH\Views\resep\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/index', [], true)
+ 5 APPPATH\Controllers\Resep.php(22): view('resep/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Resep->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 08:02:21 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: resep]
+in APPPATH\Views\resep\index.php on line 24.
+ 1 APPPATH\Views\resep\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/index', [], true)
+ 5 APPPATH\Controllers\Resep.php(22): view('resep/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Resep->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 08:02:35 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: resep]
+in APPPATH\Views\resep\index.php on line 25.
+ 1 APPPATH\Views\resep\index.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\index.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/index', [], true)
+ 5 APPPATH\Controllers\Resep.php(22): view('resep/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Resep->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 08:02:36 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: resep]
+in APPPATH\Views\resep\index.php on line 25.
+ 1 APPPATH\Views\resep\index.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\index.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/index', [], true)
+ 5 APPPATH\Controllers\Resep.php(22): view('resep/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Resep->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 08:02:36 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: resep]
+in APPPATH\Views\resep\index.php on line 25.
+ 1 APPPATH\Views\resep\index.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\index.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/index', [], true)
+ 5 APPPATH\Controllers\Resep.php(22): view('resep/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Resep->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 08:02:36 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: resep]
+in APPPATH\Views\resep\index.php on line 25.
+ 1 APPPATH\Views\resep\index.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\index.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/index', [], true)
+ 5 APPPATH\Controllers\Resep.php(22): view('resep/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Resep->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 08:03:00 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: resep]
+in APPPATH\Views\resep\index.php on line 25.
+ 1 APPPATH\Views\resep\index.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\index.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/index', [], true)
+ 5 APPPATH\Controllers\Resep.php(22): view('resep/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Resep->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 08:42:37 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\ResepModel::simpanKategori
+[Method: POST, Route: resep/store]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\ResepController.php(69): CodeIgniter\Model->__call('simpanKategori', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->store()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 08:49:18 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\ResepModel::simpanKategori
+[Method: POST, Route: resep/store]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\ResepController.php(71): CodeIgniter\Model->__call('simpanKategori', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->store()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+ERROR - 2025-05-05 08:51:24 --> mysqli_sql_exception: Duplicate entry 'yakakaka' for key 'resep.slug' in C:\laragon\www\resep-makanan\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\resep-makanan\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\laragon\www\resep-makanan\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\laragon\www\resep-makanan\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\laragon\www\resep-makanan\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\laragon\www\resep-makanan\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\resep-makanan\system\BaseModel.php(843): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\resep-makanan\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\resep-makanan\system\BaseModel.php(754): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\resep-makanan\app\Controllers\ResepController.php(55): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\resep-makanan\system\CodeIgniter.php(933): App\Controllers\ResepController->store()
+#10 C:\laragon\www\resep-makanan\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+#11 C:\laragon\www\resep-makanan\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\resep-makanan\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\resep-makanan\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\laragon\www\resep-makanan\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\laragon\www\resep-makanan\system\rewrite.php(44): require_once('C:\\laragon\\www\\...')
+#16 {main}
+CRITICAL - 2025-05-05 08:51:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'yakakaka' for key 'resep.slug'
+[Method: POST, Route: resep/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `resep` (`judul`, `slug`, `deskripsi`, `bahan`, `langkah`, `waktu_masak`, `tingkat_kesulitan`, `gambar`) VALUES (:judul:, :slug:, :deskripsi:, :bahan:, :langkah:, :waktu_masak:, :tingkat_kesulitan:, :gambar:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(754): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\ResepController.php(55): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->store()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 08:51:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'yakakaka' for key 'resep.slug'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `resep` (`judul`, `slug`, `deskripsi`, `bahan`, `langkah`, `waktu_masak`, `tingkat_kesulitan`, `gambar`) VALUES (\'yakakaka\', \'yakakaka\', \'akkaknaia\', \'[\\"-dfefe\\\\r\\",\\"- fwfw\\\\r\\",\\"- wfwd\\"]\', \'[\\"okeeokeee\\"]\', \'10\', \'Sedang\', \'1746435084_40030c2195483a735310.jpeg\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `resep` (`judul`, `slug`, `deskripsi`, `bahan`, `langkah`, `waktu_masak`, `tingkat_kesulitan`, `gambar`) VALUES (\'yakakaka\', \'yakakaka\', \'akkaknaia\', \'[\\"-dfefe\\\\r\\",\\"- fwfw\\\\r\\",\\"- wfwd\\"]\', \'[\\"okeeokeee\\"]\', \'10\', \'Sedang\', \'1746435084_40030c2195483a735310.jpeg\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `resep` (`judul`, `slug`, `deskripsi`, `bahan`, `langkah`, `waktu_masak`, `tingkat_kesulitan`, `gambar`) VALUES (:judul:, :slug:, :deskripsi:, :bahan:, :langkah:, :waktu_masak:, :tingkat_kesulitan:, :gambar:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(754): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\ResepController.php(55): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->store()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 08:51:24 --> [Caused by] mysqli_sql_exception: Duplicate entry 'yakakaka' for key 'resep.slug'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `resep` (`judul`, `slug`, `deskripsi`, `bahan`, `langkah`, `waktu_masak`, `tingkat_kesulitan`, `gambar`) VALUES (\'yakakaka\', \'yakakaka\', \'akkaknaia\', \'[\\"-dfefe\\\\r\\",\\"- fwfw\\\\r\\",\\"- wfwd\\"]\', \'[\\"okeeokeee\\"]\', \'10\', \'Sedang\', \'1746435084_40030c2195483a735310.jpeg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `resep` (`judul`, `slug`, `deskripsi`, `bahan`, `langkah`, `waktu_masak`, `tingkat_kesulitan`, `gambar`) VALUES (\'yakakaka\', \'yakakaka\', \'akkaknaia\', \'[\\"-dfefe\\\\r\\",\\"- fwfw\\\\r\\",\\"- wfwd\\"]\', \'[\\"okeeokeee\\"]\', \'10\', \'Sedang\', \'1746435084_40030c2195483a735310.jpeg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `resep` (`judul`, `slug`, `deskripsi`, `bahan`, `langkah`, `waktu_masak`, `tingkat_kesulitan`, `gambar`) VALUES (\'yakakaka\', \'yakakaka\', \'akkaknaia\', \'[\\"-dfefe\\\\r\\",\\"- fwfw\\\\r\\",\\"- wfwd\\"]\', \'[\\"okeeokeee\\"]\', \'10\', \'Sedang\', \'1746435084_40030c2195483a735310.jpeg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `resep` (`judul`, `slug`, `deskripsi`, `bahan`, `langkah`, `waktu_masak`, `tingkat_kesulitan`, `gambar`) VALUES (:judul:, :slug:, :deskripsi:, :bahan:, :langkah:, :waktu_masak:, :tingkat_kesulitan:, :gambar:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(754): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\ResepController.php(55): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->store()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 09:36:47 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: resep/edit/2]
+in APPPATH\Views\resep\edit.php on line 27.
+ 1 APPPATH\Views\resep\edit.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\edit.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/edit', [], true)
+ 5 APPPATH\Controllers\ResepController.php(95): view('resep/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 09:37:18 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: resep/edit/2]
+in APPPATH\Views\resep\edit.php on line 27.
+ 1 APPPATH\Views\resep\edit.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\edit.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/edit', [], true)
+ 5 APPPATH\Controllers\ResepController.php(95): view('resep/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 09:37:37 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: resep/edit/2]
+in APPPATH\Views\resep\edit.php on line 19.
+ 1 APPPATH\Views\resep\edit.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\edit.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/edit', [], true)
+ 5 APPPATH\Controllers\ResepController.php(95): view('resep/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 09:37:38 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: resep/edit/2]
+in APPPATH\Views\resep\edit.php on line 19.
+ 1 APPPATH\Views\resep\edit.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\edit.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/edit', [], true)
+ 5 APPPATH\Controllers\ResepController.php(95): view('resep/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 09:39:47 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: resep/edit/2]
+in APPPATH\Views\resep\edit.php on line 27.
+ 1 APPPATH\Views\resep\edit.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\edit.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/edit', [], true)
+ 5 APPPATH\Controllers\ResepController.php(95): view('resep/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 09:40:02 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: resep/edit/2]
+in APPPATH\Views\resep\edit.php on line 31.
+ 1 APPPATH\Views\resep\edit.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\edit.php', 31)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/edit', [], true)
+ 5 APPPATH\Controllers\ResepController.php(95): view('resep/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 09:40:03 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: resep/edit/2]
+in APPPATH\Views\resep\edit.php on line 31.
+ 1 APPPATH\Views\resep\edit.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\edit.php', 31)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/edit', [], true)
+ 5 APPPATH\Controllers\ResepController.php(95): view('resep/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 09:40:09 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: resep/edit/2]
+in APPPATH\Views\resep\edit.php on line 31.
+ 1 APPPATH\Views\resep\edit.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\edit.php', 31)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/edit', [], true)
+ 5 APPPATH\Controllers\ResepController.php(95): view('resep/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 09:40:16 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: resep/edit/2]
+in APPPATH\Views\resep\edit.php on line 31.
+ 1 APPPATH\Views\resep\edit.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\edit.php', 31)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/edit', [], true)
+ 5 APPPATH\Controllers\ResepController.php(95): view('resep/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 09:40:34 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: resep/edit/2]
+in APPPATH\Views\resep\edit.php on line 27.
+ 1 APPPATH\Views\resep\edit.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\edit.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/edit', [], true)
+ 5 APPPATH\Controllers\ResepController.php(95): view('resep/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 09:40:51 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: resep/edit/2]
+in APPPATH\Views\resep\edit.php on line 31.
+ 1 APPPATH\Views\resep\edit.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\edit.php', 31)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/edit', [], true)
+ 5 APPPATH\Controllers\ResepController.php(95): view('resep/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 09:40:52 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: resep/edit/2]
+in APPPATH\Views\resep\edit.php on line 31.
+ 1 APPPATH\Views\resep\edit.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\edit.php', 31)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/edit', [], true)
+ 5 APPPATH\Controllers\ResepController.php(95): view('resep/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 09:41:55 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: resep/edit/2]
+in APPPATH\Views\resep\edit.php on line 31.
+ 1 APPPATH\Views\resep\edit.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\edit.php', 31)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/edit', [], true)
+ 5 APPPATH\Controllers\ResepController.php(95): view('resep/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 10:09:13 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: /]
+in APPPATH\Views\resep\index.php on line 25.
+ 1 APPPATH\Views\resep\index.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\index.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/index', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('resep/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 10:09:46 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: /]
+in APPPATH\Views\resep\index.php on line 25.
+ 1 APPPATH\Views\resep\index.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\index.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/index', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('resep/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 14:01:00 --> ErrorException: Undefined variable $resep
+[Method: GET, Route: resep/detail/yakakakakkkkk]
+in APPPATH\Views\resep\detail.php on line 6.
+ 1 APPPATH\Views\resep\detail.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resep', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/detail', [], true)
+ 5 APPPATH\Controllers\ResepController.php(196): view('resep/detail')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('yakakakakkkkk')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 14:01:21 --> ErrorException: Undefined variable $resep
+[Method: GET, Route: resep/detail/yakakakakkkkk]
+in APPPATH\Views\resep\detail.php on line 6.
+ 1 APPPATH\Views\resep\detail.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resep', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/detail', [], true)
+ 5 APPPATH\Controllers\ResepController.php(196): view('resep/detail')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('yakakakakkkkk')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 14:01:42 --> ErrorException: Undefined variable $resep
+[Method: GET, Route: resep/detail/yakakakakkkkk]
+in APPPATH\Views\resep\detail.php on line 6.
+ 1 APPPATH\Views\resep\detail.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resep', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/detail', [], true)
+ 5 APPPATH\Controllers\ResepController.php(196): view('resep/detail')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('yakakakakkkkk')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 14:01:43 --> ErrorException: Undefined variable $resep
+[Method: GET, Route: resep/detail/yakakakakkkkk]
+in APPPATH\Views\resep\detail.php on line 6.
+ 1 APPPATH\Views\resep\detail.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resep', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/detail', [], true)
+ 5 APPPATH\Controllers\ResepController.php(196): view('resep/detail')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('yakakakakkkkk')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 14:02:20 --> ErrorException: Undefined variable $resep
+[Method: GET, Route: resep/detail/yakakakakkkkk]
+in APPPATH\Views\resep\detail.php on line 6.
+ 1 APPPATH\Views\resep\detail.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resep', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/detail', [], true)
+ 5 APPPATH\Controllers\ResepController.php(196): view('resep/detail')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('yakakakakkkkk')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 14:02:24 --> ErrorException: Undefined variable $resep
+[Method: GET, Route: resep/detail/12]
+in APPPATH\Views\resep\detail.php on line 6.
+ 1 APPPATH\Views\resep\detail.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resep', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/detail', [], true)
+ 5 APPPATH\Controllers\ResepController.php(196): view('resep/detail')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('12')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 14:02:33 --> ErrorException: Undefined variable $resep
+[Method: GET, Route: resep/detail/6]
+in APPPATH\Views\resep\detail.php on line 6.
+ 1 APPPATH\Views\resep\detail.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resep', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/detail', [], true)
+ 5 APPPATH\Controllers\ResepController.php(196): view('resep/detail')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('6')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 14:02:52 --> ErrorException: Undefined variable $resep
+[Method: GET, Route: resep/detail/6]
+in APPPATH\Views\resep\detail.php on line 6.
+ 1 APPPATH\Views\resep\detail.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resep', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/detail', [], true)
+ 5 APPPATH\Controllers\ResepController.php(196): view('resep/detail')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('6')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 14:02:52 --> ErrorException: Undefined variable $resep
+[Method: GET, Route: resep/detail/6]
+in APPPATH\Views\resep\detail.php on line 6.
+ 1 APPPATH\Views\resep\detail.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resep', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/detail', [], true)
+ 5 APPPATH\Controllers\ResepController.php(196): view('resep/detail')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('6')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 14:02:52 --> ErrorException: Undefined variable $resep
+[Method: GET, Route: resep/detail/6]
+in APPPATH\Views\resep\detail.php on line 6.
+ 1 APPPATH\Views\resep\detail.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resep', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/detail', [], true)
+ 5 APPPATH\Controllers\ResepController.php(196): view('resep/detail')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('6')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 14:02:53 --> ErrorException: Undefined variable $resep
+[Method: GET, Route: resep/detail/6]
+in APPPATH\Views\resep\detail.php on line 6.
+ 1 APPPATH\Views\resep\detail.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resep', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/detail', [], true)
+ 5 APPPATH\Controllers\ResepController.php(196): view('resep/detail')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('6')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 14:04:07 --> ErrorException: Undefined variable $resep
+[Method: GET, Route: resep/detail/6]
+in APPPATH\Views\resep\detail.php on line 6.
+ 1 APPPATH\Views\resep\detail.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resep', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/detail', [], true)
+ 5 APPPATH\Controllers\ResepController.php(174): view('resep/detail')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('6')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 14:04:07 --> ErrorException: Undefined variable $resep
+[Method: GET, Route: resep/detail/6]
+in APPPATH\Views\resep\detail.php on line 6.
+ 1 APPPATH\Views\resep\detail.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resep', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/detail', [], true)
+ 5 APPPATH\Controllers\ResepController.php(174): view('resep/detail')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('6')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 14:04:07 --> ErrorException: Undefined variable $resep
+[Method: GET, Route: resep/detail/6]
+in APPPATH\Views\resep\detail.php on line 6.
+ 1 APPPATH\Views\resep\detail.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resep', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/detail', [], true)
+ 5 APPPATH\Controllers\ResepController.php(174): view('resep/detail')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('6')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 14:04:07 --> ErrorException: Undefined variable $resep
+[Method: GET, Route: resep/detail/6]
+in APPPATH\Views\resep\detail.php on line 6.
+ 1 APPPATH\Views\resep\detail.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resep', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/detail', [], true)
+ 5 APPPATH\Controllers\ResepController.php(174): view('resep/detail')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('6')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 14:04:08 --> ErrorException: Undefined variable $resep
+[Method: GET, Route: resep/detail/6]
+in APPPATH\Views\resep\detail.php on line 6.
+ 1 APPPATH\Views\resep\detail.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resep', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/detail', [], true)
+ 5 APPPATH\Controllers\ResepController.php(174): view('resep/detail')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('6')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 14:04:08 --> ErrorException: Undefined variable $resep
+[Method: GET, Route: resep/detail/6]
+in APPPATH\Views\resep\detail.php on line 6.
+ 1 APPPATH\Views\resep\detail.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resep', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/detail', [], true)
+ 5 APPPATH\Controllers\ResepController.php(174): view('resep/detail')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('6')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 14:04:08 --> ErrorException: Undefined variable $resep
+[Method: GET, Route: resep/detail/6]
+in APPPATH\Views\resep\detail.php on line 6.
+ 1 APPPATH\Views\resep\detail.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resep', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/detail', [], true)
+ 5 APPPATH\Controllers\ResepController.php(174): view('resep/detail')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('6')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 14:04:08 --> ErrorException: Undefined variable $resep
+[Method: GET, Route: resep/detail/6]
+in APPPATH\Views\resep\detail.php on line 6.
+ 1 APPPATH\Views\resep\detail.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resep', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/detail', [], true)
+ 5 APPPATH\Controllers\ResepController.php(174): view('resep/detail')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('6')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 14:04:08 --> ErrorException: Undefined variable $resep
+[Method: GET, Route: resep/detail/6]
+in APPPATH\Views\resep\detail.php on line 6.
+ 1 APPPATH\Views\resep\detail.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resep', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/detail', [], true)
+ 5 APPPATH\Controllers\ResepController.php(174): view('resep/detail')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('6')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 14:04:11 --> ErrorException: Undefined variable $resep
+[Method: GET, Route: resep/detail/12]
+in APPPATH\Views\resep\detail.php on line 6.
+ 1 APPPATH\Views\resep\detail.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resep', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/detail', [], true)
+ 5 APPPATH\Controllers\ResepController.php(174): view('resep/detail')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('12')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 14:04:12 --> ErrorException: Undefined variable $resep
+[Method: GET, Route: resep/detail/12]
+in APPPATH\Views\resep\detail.php on line 6.
+ 1 APPPATH\Views\resep\detail.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resep', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/detail', [], true)
+ 5 APPPATH\Controllers\ResepController.php(174): view('resep/detail')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('12')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 14:04:12 --> ErrorException: Undefined variable $resep
+[Method: GET, Route: resep/detail/12]
+in APPPATH\Views\resep\detail.php on line 6.
+ 1 APPPATH\Views\resep\detail.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resep', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/detail', [], true)
+ 5 APPPATH\Controllers\ResepController.php(174): view('resep/detail')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('12')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 14:04:12 --> ErrorException: Undefined variable $resep
+[Method: GET, Route: resep/detail/12]
+in APPPATH\Views\resep\detail.php on line 6.
+ 1 APPPATH\Views\resep\detail.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resep', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/detail', [], true)
+ 5 APPPATH\Controllers\ResepController.php(174): view('resep/detail')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('12')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 14:04:13 --> ErrorException: Undefined variable $resep
+[Method: GET, Route: resep/detail/12]
+in APPPATH\Views\resep\detail.php on line 6.
+ 1 APPPATH\Views\resep\detail.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resep', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/detail', [], true)
+ 5 APPPATH\Controllers\ResepController.php(174): view('resep/detail')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('12')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 14:04:14 --> ErrorException: Undefined variable $resep
+[Method: GET, Route: resep/detail/yakakakakkkkk]
+in APPPATH\Views\resep\detail.php on line 6.
+ 1 APPPATH\Views\resep\detail.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resep', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/detail', [], true)
+ 5 APPPATH\Controllers\ResepController.php(174): view('resep/detail')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('yakakakakkkkk')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 14:04:32 --> ErrorException: Undefined variable $resep
+[Method: GET, Route: resep/detail/6]
+in APPPATH\Views\resep\detail.php on line 6.
+ 1 APPPATH\Views\resep\detail.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resep', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/detail', [], true)
+ 5 APPPATH\Controllers\ResepController.php(174): view('resep/detail')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('6')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 14:08:00 --> TypeError: explode(): Argument #2 ($string) must be of type string, array given
+[Method: GET, Route: resep/detail/6]
+in APPPATH\Views\resep\detail.php on line 26.
+ 1 APPPATH\Views\resep\detail.php(26): explode('
+', [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/detail', [], true)
+ 5 APPPATH\Controllers\ResepController.php(206): view('resep/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('6')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 14:08:05 --> TypeError: explode(): Argument #2 ($string) must be of type string, array given
+[Method: GET, Route: resep/detail/6]
+in APPPATH\Views\resep\detail.php on line 26.
+ 1 APPPATH\Views\resep\detail.php(26): explode('
+', [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/detail', [], true)
+ 5 APPPATH\Controllers\ResepController.php(206): view('resep/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('6')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 14:08:46 --> TypeError: explode(): Argument #2 ($string) must be of type string, array given
+[Method: GET, Route: resep/detail/6]
+in APPPATH\Views\resep\detail.php on line 26.
+ 1 APPPATH\Views\resep\detail.php(26): explode('
+', [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/detail', [], true)
+ 5 APPPATH\Controllers\ResepController.php(206): view('resep/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('6')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 14:08:46 --> TypeError: explode(): Argument #2 ($string) must be of type string, array given
+[Method: GET, Route: resep/detail/6]
+in APPPATH\Views\resep\detail.php on line 26.
+ 1 APPPATH\Views\resep\detail.php(26): explode('
+', [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/detail', [], true)
+ 5 APPPATH\Controllers\ResepController.php(206): view('resep/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('6')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 14:09:30 --> TypeError: explode(): Argument #2 ($string) must be of type string, array given
+[Method: GET, Route: resep/detail/6]
+in APPPATH\Views\resep\detail.php on line 26.
+ 1 APPPATH\Views\resep\detail.php(26): explode('
+', [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/detail', [], true)
+ 5 APPPATH\Controllers\ResepController.php(204): view('resep/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('6')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 14:09:33 --> TypeError: explode(): Argument #2 ($string) must be of type string, array given
+[Method: GET, Route: resep/detail/6]
+in APPPATH\Views\resep\detail.php on line 26.
+ 1 APPPATH\Views\resep\detail.php(26): explode('
+', [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/detail', [], true)
+ 5 APPPATH\Controllers\ResepController.php(204): view('resep/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('6')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 14:09:33 --> TypeError: explode(): Argument #2 ($string) must be of type string, array given
+[Method: GET, Route: resep/detail/6]
+in APPPATH\Views\resep\detail.php on line 26.
+ 1 APPPATH\Views\resep\detail.php(26): explode('
+', [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/detail', [], true)
+ 5 APPPATH\Controllers\ResepController.php(204): view('resep/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('6')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 14:09:33 --> TypeError: explode(): Argument #2 ($string) must be of type string, array given
+[Method: GET, Route: resep/detail/6]
+in APPPATH\Views\resep\detail.php on line 26.
+ 1 APPPATH\Views\resep\detail.php(26): explode('
+', [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/detail', [], true)
+ 5 APPPATH\Controllers\ResepController.php(204): view('resep/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('6')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 14:09:33 --> TypeError: explode(): Argument #2 ($string) must be of type string, array given
+[Method: GET, Route: resep/detail/6]
+in APPPATH\Views\resep\detail.php on line 26.
+ 1 APPPATH\Views\resep\detail.php(26): explode('
+', [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/detail', [], true)
+ 5 APPPATH\Controllers\ResepController.php(204): view('resep/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('6')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 14:09:52 --> TypeError: explode(): Argument #2 ($string) must be of type string, array given
+[Method: GET, Route: resep/detail/6]
+in APPPATH\Views\resep\detail.php on line 26.
+ 1 APPPATH\Views\resep\detail.php(26): explode('
+', [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\resep\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('resep/detail', [], true)
+ 5 APPPATH\Controllers\ResepController.php(204): view('resep/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('6')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 15:10:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "components/header.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('components/header.php')
+ 2 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('components/header', null, true)
+ 3 APPPATH\Views\layouts\default.php(1): CodeIgniter\View\View->include('components/header')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\layouts\\default.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layouts/default', [], true)
+ 7 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('home/index', [], true)
+ 8 APPPATH\Controllers\Home.php(25): view('home/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 15:10:37 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "components/header.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('components/header.php')
+ 2 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('components/header', null, true)
+ 3 APPPATH\Views\layouts\default.php(1): CodeIgniter\View\View->include('components/header')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\layouts\\default.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layouts/default', [], true)
+ 7 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('home/index', [], true)
+ 8 APPPATH\Controllers\Home.php(25): view('home/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 15:10:38 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "components/header.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('components/header.php')
+ 2 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('components/header', null, true)
+ 3 APPPATH\Views\layouts\default.php(1): CodeIgniter\View\View->include('components/header')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\layouts\\default.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layouts/default', [], true)
+ 7 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('home/index', [], true)
+ 8 APPPATH\Controllers\Home.php(25): view('home/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 15:10:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "components/header.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('components/header.php')
+ 2 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('components/header', null, true)
+ 3 APPPATH\Views\layouts\default.php(1): CodeIgniter\View\View->include('components/header')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\layouts\\default.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layouts/default', [], true)
+ 7 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('home/index', [], true)
+ 8 APPPATH\Controllers\Home.php(25): view('home/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 15:10:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "components/header.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('components/header.php')
+ 2 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('components/header', null, true)
+ 3 APPPATH\Views\layouts\default.php(1): CodeIgniter\View\View->include('components/header')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\layouts\\default.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layouts/default', [], true)
+ 7 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('home/index', [], true)
+ 8 APPPATH\Controllers\Home.php(25): view('home/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 15:10:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "components/header.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('components/header.php')
+ 2 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('components/header', null, true)
+ 3 APPPATH\Views\layouts\default.php(1): CodeIgniter\View\View->include('components/header')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\layouts\\default.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layouts/default', [], true)
+ 7 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('home/index', [], true)
+ 8 APPPATH\Controllers\Home.php(25): view('home/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 15:11:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "components/header.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('components/header.php')
+ 2 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('components/header', null, true)
+ 3 APPPATH\Views\layouts\default.php(1): CodeIgniter\View\View->include('components/header')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\layouts\\default.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layouts/default', [], true)
+ 7 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('home/index', [], true)
+ 8 APPPATH\Controllers\Home.php(25): view('home/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+ERROR - 2025-05-05 16:31:52 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`resep_makanan`.`resep_kategori`, CONSTRAINT `resep_kategori_ibfk_1` FOREIGN KEY (`resep_id`) REFERENCES `resep` (`id`)) in C:\laragon\www\resep-makanan\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\resep-makanan\system\Database\MySQLi\Connection.php(327): mysqli->query('DELETE FROM `re...', 0)
+#1 C:\laragon\www\resep-makanan\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `re...')
+#2 C:\laragon\www\resep-makanan\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `re...')
+#3 C:\laragon\www\resep-makanan\system\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `re...', Array, false)
+#4 C:\laragon\www\resep-makanan\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\laragon\www\resep-makanan\system\BaseModel.php(1161): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\laragon\www\resep-makanan\app\Controllers\ResepController.php(176): CodeIgniter\BaseModel->delete(Array)
+#7 C:\laragon\www\resep-makanan\system\CodeIgniter.php(933): App\Controllers\ResepController->delete('7')
+#8 C:\laragon\www\resep-makanan\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+#9 C:\laragon\www\resep-makanan\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\resep-makanan\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\resep-makanan\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon\www\resep-makanan\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\laragon\www\resep-makanan\system\rewrite.php(44): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2025-05-05 16:31:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`resep_makanan`.`resep_kategori`, CONSTRAINT `resep_kategori_ibfk_1` FOREIGN KEY (`resep_id`) REFERENCES `resep` (`id`))
+[Method: GET, Route: resep/delete/7]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `resep`
+WHERE `id` IN :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1161): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\ResepController.php(176): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->delete('7')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 16:31:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`resep_makanan`.`resep_kategori`, CONSTRAINT `resep_kategori_ibfk_1` FOREIGN KEY (`resep_id`) REFERENCES `resep` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `resep`
+WHERE `id` IN (\'7\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `resep`
+WHERE `id` IN (\'7\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `resep`
+WHERE `id` IN :id:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1161): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\ResepController.php(176): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->delete('7')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 16:31:52 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`resep_makanan`.`resep_kategori`, CONSTRAINT `resep_kategori_ibfk_1` FOREIGN KEY (`resep_id`) REFERENCES `resep` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('DELETE FROM `resep`
+WHERE `id` IN (\'7\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `resep`
+WHERE `id` IN (\'7\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `resep`
+WHERE `id` IN (\'7\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `resep`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1161): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\ResepController.php(176): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->delete('7')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 16:33:31 --> Error: Call to a member function delete() on array
+[Method: GET, Route: resep/delete/7]
+in APPPATH\Controllers\ResepController.php on line 172.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->delete('7')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 16:34:16 --> Error: Call to a member function delete() on array
+[Method: GET, Route: resep/delete/7]
+in APPPATH\Controllers\ResepController.php on line 172.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->delete('7')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 16:35:22 --> Error: Call to a member function delete() on array
+[Method: GET, Route: resep/delete/7]
+in APPPATH\Controllers\ResepController.php on line 172.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->delete('7')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 16:35:31 --> Error: Call to a member function delete() on array
+[Method: GET, Route: resep/delete/7]
+in APPPATH\Controllers\ResepController.php on line 172.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->delete('7')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 16:36:25 --> Error: Call to a member function delete() on array
+[Method: GET, Route: resep/delete/7]
+in APPPATH\Controllers\ResepController.php on line 172.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->delete('7')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 16:37:32 --> Error: Call to a member function delete() on array
+[Method: GET, Route: resep/delete/7]
+in APPPATH\Controllers\ResepController.php on line 172.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->delete('7')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 16:47:49 --> Error: Call to a member function delete() on array
+[Method: DELETE, Route: resep/delete/7]
+in APPPATH\Controllers\ResepController.php on line 172.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->delete('7')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 16:47:58 --> Error: Call to a member function delete() on array
+[Method: DELETE, Route: resep/delete/7]
+in APPPATH\Controllers\ResepController.php on line 172.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->delete('7')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+ERROR - 2025-05-05 18:00:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+AND `resep`.`id` != '9'
+GROUP BY `resep`.`id`
+ LIMIT 6' at line 4 in C:\laragon\www\resep-makanan\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\resep-makanan\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `resep`....', 0)
+#1 C:\laragon\www\resep-makanan\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `resep`....')
+#2 C:\laragon\www\resep-makanan\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `resep`....')
+#3 C:\laragon\www\resep-makanan\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `resep`....', Array, false)
+#4 C:\laragon\www\resep-makanan\app\Models\ResepModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\resep-makanan\app\Controllers\ResepController.php(204): App\Models\ResepModel->getRekomendasiResep(Array, '9')
+#6 C:\laragon\www\resep-makanan\system\CodeIgniter.php(933): App\Controllers\ResepController->detail('9')
+#7 C:\laragon\www\resep-makanan\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+#8 C:\laragon\www\resep-makanan\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\resep-makanan\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\resep-makanan\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\resep-makanan\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\laragon\www\resep-makanan\system\rewrite.php(44): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2025-05-05 18:00:15 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+AND `resep`.`id` != '9'
+GROUP BY `resep`.`id`
+ LIMIT 6' at line 4
+[Method: GET, Route: resep/detail/9]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN :resep_kategori.kategori_id:
+AND `resep`.`id` != :resep.id:
+GROUP BY `resep`.`id`
+ LIMIT 6', [...], false)
+ 2 APPPATH\Models\ResepModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ResepController.php(204): App\Models\ResepModel->getRekomendasiResep([], '9')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('9')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 18:00:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+AND `resep`.`id` != '9'
+GROUP BY `resep`.`id`
+ LIMIT 6' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN ()
+AND `resep`.`id` != \'9\'
+GROUP BY `resep`.`id`
+ LIMIT 6')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN ()
+AND `resep`.`id` != \'9\'
+GROUP BY `resep`.`id`
+ LIMIT 6')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN :resep_kategori.kategori_id:
+AND `resep`.`id` != :resep.id:
+GROUP BY `resep`.`id`
+ LIMIT 6', [...], false)
+ 4 APPPATH\Models\ResepModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\ResepController.php(204): App\Models\ResepModel->getRekomendasiResep([], '9')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('9')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 18:00:15 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+AND `resep`.`id` != '9'
+GROUP BY `resep`.`id`
+ LIMIT 6' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN ()
+AND `resep`.`id` != \'9\'
+GROUP BY `resep`.`id`
+ LIMIT 6', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN ()
+AND `resep`.`id` != \'9\'
+GROUP BY `resep`.`id`
+ LIMIT 6')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN ()
+AND `resep`.`id` != \'9\'
+GROUP BY `resep`.`id`
+ LIMIT 6')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN :resep_kategori.kategori_id:
+AND `resep`.`id` != :resep.id:
+GROUP BY `resep`.`id`
+ LIMIT 6', [...], false)
+ 5 APPPATH\Models\ResepModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\ResepController.php(204): App\Models\ResepModel->getRekomendasiResep([], '9')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('9')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+ERROR - 2025-05-05 18:00:38 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+AND `resep`.`id` != '9'
+GROUP BY `resep`.`id`
+ LIMIT 6' at line 4 in C:\laragon\www\resep-makanan\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\resep-makanan\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `resep`....', 0)
+#1 C:\laragon\www\resep-makanan\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `resep`....')
+#2 C:\laragon\www\resep-makanan\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `resep`....')
+#3 C:\laragon\www\resep-makanan\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `resep`....', Array, false)
+#4 C:\laragon\www\resep-makanan\app\Models\ResepModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\resep-makanan\app\Controllers\ResepController.php(204): App\Models\ResepModel->getRekomendasiResep(Array, '9')
+#6 C:\laragon\www\resep-makanan\system\CodeIgniter.php(933): App\Controllers\ResepController->detail('9')
+#7 C:\laragon\www\resep-makanan\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+#8 C:\laragon\www\resep-makanan\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\resep-makanan\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\resep-makanan\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\resep-makanan\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\laragon\www\resep-makanan\system\rewrite.php(44): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2025-05-05 18:00:38 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+AND `resep`.`id` != '9'
+GROUP BY `resep`.`id`
+ LIMIT 6' at line 4
+[Method: GET, Route: resep/detail/9]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN :resep_kategori.kategori_id:
+AND `resep`.`id` != :resep.id:
+GROUP BY `resep`.`id`
+ LIMIT 6', [...], false)
+ 2 APPPATH\Models\ResepModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ResepController.php(204): App\Models\ResepModel->getRekomendasiResep([], '9')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('9')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 18:00:38 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+AND `resep`.`id` != '9'
+GROUP BY `resep`.`id`
+ LIMIT 6' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN ()
+AND `resep`.`id` != \'9\'
+GROUP BY `resep`.`id`
+ LIMIT 6')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN ()
+AND `resep`.`id` != \'9\'
+GROUP BY `resep`.`id`
+ LIMIT 6')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN :resep_kategori.kategori_id:
+AND `resep`.`id` != :resep.id:
+GROUP BY `resep`.`id`
+ LIMIT 6', [...], false)
+ 4 APPPATH\Models\ResepModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\ResepController.php(204): App\Models\ResepModel->getRekomendasiResep([], '9')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('9')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 18:00:38 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+AND `resep`.`id` != '9'
+GROUP BY `resep`.`id`
+ LIMIT 6' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN ()
+AND `resep`.`id` != \'9\'
+GROUP BY `resep`.`id`
+ LIMIT 6', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN ()
+AND `resep`.`id` != \'9\'
+GROUP BY `resep`.`id`
+ LIMIT 6')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN ()
+AND `resep`.`id` != \'9\'
+GROUP BY `resep`.`id`
+ LIMIT 6')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN :resep_kategori.kategori_id:
+AND `resep`.`id` != :resep.id:
+GROUP BY `resep`.`id`
+ LIMIT 6', [...], false)
+ 5 APPPATH\Models\ResepModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\ResepController.php(204): App\Models\ResepModel->getRekomendasiResep([], '9')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('9')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+ERROR - 2025-05-05 18:00:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+AND `resep`.`id` != '9'
+GROUP BY `resep`.`id`
+ LIMIT 6' at line 4 in C:\laragon\www\resep-makanan\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\resep-makanan\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `resep`....', 0)
+#1 C:\laragon\www\resep-makanan\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `resep`....')
+#2 C:\laragon\www\resep-makanan\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `resep`....')
+#3 C:\laragon\www\resep-makanan\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `resep`....', Array, false)
+#4 C:\laragon\www\resep-makanan\app\Models\ResepModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\resep-makanan\app\Controllers\ResepController.php(204): App\Models\ResepModel->getRekomendasiResep(Array, '9')
+#6 C:\laragon\www\resep-makanan\system\CodeIgniter.php(933): App\Controllers\ResepController->detail('9')
+#7 C:\laragon\www\resep-makanan\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+#8 C:\laragon\www\resep-makanan\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\resep-makanan\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\resep-makanan\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\resep-makanan\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\laragon\www\resep-makanan\system\rewrite.php(44): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2025-05-05 18:00:57 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+AND `resep`.`id` != '9'
+GROUP BY `resep`.`id`
+ LIMIT 6' at line 4
+[Method: GET, Route: resep/detail/9]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN :resep_kategori.kategori_id:
+AND `resep`.`id` != :resep.id:
+GROUP BY `resep`.`id`
+ LIMIT 6', [...], false)
+ 2 APPPATH\Models\ResepModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ResepController.php(204): App\Models\ResepModel->getRekomendasiResep([], '9')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('9')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 18:00:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+AND `resep`.`id` != '9'
+GROUP BY `resep`.`id`
+ LIMIT 6' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN ()
+AND `resep`.`id` != \'9\'
+GROUP BY `resep`.`id`
+ LIMIT 6')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN ()
+AND `resep`.`id` != \'9\'
+GROUP BY `resep`.`id`
+ LIMIT 6')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN :resep_kategori.kategori_id:
+AND `resep`.`id` != :resep.id:
+GROUP BY `resep`.`id`
+ LIMIT 6', [...], false)
+ 4 APPPATH\Models\ResepModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\ResepController.php(204): App\Models\ResepModel->getRekomendasiResep([], '9')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('9')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 18:00:57 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+AND `resep`.`id` != '9'
+GROUP BY `resep`.`id`
+ LIMIT 6' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN ()
+AND `resep`.`id` != \'9\'
+GROUP BY `resep`.`id`
+ LIMIT 6', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN ()
+AND `resep`.`id` != \'9\'
+GROUP BY `resep`.`id`
+ LIMIT 6')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN ()
+AND `resep`.`id` != \'9\'
+GROUP BY `resep`.`id`
+ LIMIT 6')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN :resep_kategori.kategori_id:
+AND `resep`.`id` != :resep.id:
+GROUP BY `resep`.`id`
+ LIMIT 6', [...], false)
+ 5 APPPATH\Models\ResepModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\ResepController.php(204): App\Models\ResepModel->getRekomendasiResep([], '9')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('9')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+ERROR - 2025-05-05 18:00:59 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+AND `resep`.`id` != '9'
+GROUP BY `resep`.`id`
+ LIMIT 6' at line 4 in C:\laragon\www\resep-makanan\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\resep-makanan\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `resep`....', 0)
+#1 C:\laragon\www\resep-makanan\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `resep`....')
+#2 C:\laragon\www\resep-makanan\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `resep`....')
+#3 C:\laragon\www\resep-makanan\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `resep`....', Array, false)
+#4 C:\laragon\www\resep-makanan\app\Models\ResepModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\resep-makanan\app\Controllers\ResepController.php(204): App\Models\ResepModel->getRekomendasiResep(Array, '9')
+#6 C:\laragon\www\resep-makanan\system\CodeIgniter.php(933): App\Controllers\ResepController->detail('9')
+#7 C:\laragon\www\resep-makanan\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+#8 C:\laragon\www\resep-makanan\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\resep-makanan\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\resep-makanan\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\resep-makanan\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\laragon\www\resep-makanan\system\rewrite.php(44): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2025-05-05 18:00:59 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+AND `resep`.`id` != '9'
+GROUP BY `resep`.`id`
+ LIMIT 6' at line 4
+[Method: GET, Route: resep/detail/9]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN :resep_kategori.kategori_id:
+AND `resep`.`id` != :resep.id:
+GROUP BY `resep`.`id`
+ LIMIT 6', [...], false)
+ 2 APPPATH\Models\ResepModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ResepController.php(204): App\Models\ResepModel->getRekomendasiResep([], '9')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('9')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 18:00:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+AND `resep`.`id` != '9'
+GROUP BY `resep`.`id`
+ LIMIT 6' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN ()
+AND `resep`.`id` != \'9\'
+GROUP BY `resep`.`id`
+ LIMIT 6')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN ()
+AND `resep`.`id` != \'9\'
+GROUP BY `resep`.`id`
+ LIMIT 6')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN :resep_kategori.kategori_id:
+AND `resep`.`id` != :resep.id:
+GROUP BY `resep`.`id`
+ LIMIT 6', [...], false)
+ 4 APPPATH\Models\ResepModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\ResepController.php(204): App\Models\ResepModel->getRekomendasiResep([], '9')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('9')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 18:00:59 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+AND `resep`.`id` != '9'
+GROUP BY `resep`.`id`
+ LIMIT 6' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN ()
+AND `resep`.`id` != \'9\'
+GROUP BY `resep`.`id`
+ LIMIT 6', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN ()
+AND `resep`.`id` != \'9\'
+GROUP BY `resep`.`id`
+ LIMIT 6')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN ()
+AND `resep`.`id` != \'9\'
+GROUP BY `resep`.`id`
+ LIMIT 6')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN :resep_kategori.kategori_id:
+AND `resep`.`id` != :resep.id:
+GROUP BY `resep`.`id`
+ LIMIT 6', [...], false)
+ 5 APPPATH\Models\ResepModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\ResepController.php(204): App\Models\ResepModel->getRekomendasiResep([], '9')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('9')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+ERROR - 2025-05-05 18:02:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+AND `resep`.`id` != '9'
+GROUP BY `resep`.`id`
+ LIMIT 6' at line 4 in C:\laragon\www\resep-makanan\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\resep-makanan\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `resep`....', 0)
+#1 C:\laragon\www\resep-makanan\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `resep`....')
+#2 C:\laragon\www\resep-makanan\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `resep`....')
+#3 C:\laragon\www\resep-makanan\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `resep`....', Array, false)
+#4 C:\laragon\www\resep-makanan\app\Models\ResepModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\resep-makanan\app\Controllers\ResepController.php(204): App\Models\ResepModel->getRekomendasiResep(Array, '9')
+#6 C:\laragon\www\resep-makanan\system\CodeIgniter.php(933): App\Controllers\ResepController->detail('9')
+#7 C:\laragon\www\resep-makanan\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+#8 C:\laragon\www\resep-makanan\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\resep-makanan\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\resep-makanan\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\resep-makanan\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\laragon\www\resep-makanan\system\rewrite.php(44): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2025-05-05 18:02:46 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+AND `resep`.`id` != '9'
+GROUP BY `resep`.`id`
+ LIMIT 6' at line 4
+[Method: GET, Route: resep/detail/9]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN :resep_kategori.kategori_id:
+AND `resep`.`id` != :resep.id:
+GROUP BY `resep`.`id`
+ LIMIT 6', [...], false)
+ 2 APPPATH\Models\ResepModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ResepController.php(204): App\Models\ResepModel->getRekomendasiResep([], '9')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('9')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 18:02:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+AND `resep`.`id` != '9'
+GROUP BY `resep`.`id`
+ LIMIT 6' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN ()
+AND `resep`.`id` != \'9\'
+GROUP BY `resep`.`id`
+ LIMIT 6')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN ()
+AND `resep`.`id` != \'9\'
+GROUP BY `resep`.`id`
+ LIMIT 6')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN :resep_kategori.kategori_id:
+AND `resep`.`id` != :resep.id:
+GROUP BY `resep`.`id`
+ LIMIT 6', [...], false)
+ 4 APPPATH\Models\ResepModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\ResepController.php(204): App\Models\ResepModel->getRekomendasiResep([], '9')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('9')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 18:02:46 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+AND `resep`.`id` != '9'
+GROUP BY `resep`.`id`
+ LIMIT 6' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN ()
+AND `resep`.`id` != \'9\'
+GROUP BY `resep`.`id`
+ LIMIT 6', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN ()
+AND `resep`.`id` != \'9\'
+GROUP BY `resep`.`id`
+ LIMIT 6')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN ()
+AND `resep`.`id` != \'9\'
+GROUP BY `resep`.`id`
+ LIMIT 6')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN :resep_kategori.kategori_id:
+AND `resep`.`id` != :resep.id:
+GROUP BY `resep`.`id`
+ LIMIT 6', [...], false)
+ 5 APPPATH\Models\ResepModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\ResepController.php(204): App\Models\ResepModel->getRekomendasiResep([], '9')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('9')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+ERROR - 2025-05-05 18:02:54 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+AND `resep`.`id` != '9'
+GROUP BY `resep`.`id`
+ LIMIT 6' at line 4 in C:\laragon\www\resep-makanan\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\resep-makanan\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `resep`....', 0)
+#1 C:\laragon\www\resep-makanan\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `resep`....')
+#2 C:\laragon\www\resep-makanan\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `resep`....')
+#3 C:\laragon\www\resep-makanan\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `resep`....', Array, false)
+#4 C:\laragon\www\resep-makanan\app\Models\ResepModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\resep-makanan\app\Controllers\ResepController.php(204): App\Models\ResepModel->getRekomendasiResep(Array, '9')
+#6 C:\laragon\www\resep-makanan\system\CodeIgniter.php(933): App\Controllers\ResepController->detail('9')
+#7 C:\laragon\www\resep-makanan\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+#8 C:\laragon\www\resep-makanan\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\resep-makanan\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\resep-makanan\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\resep-makanan\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\laragon\www\resep-makanan\system\rewrite.php(44): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2025-05-05 18:02:54 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+AND `resep`.`id` != '9'
+GROUP BY `resep`.`id`
+ LIMIT 6' at line 4
+[Method: GET, Route: resep/detail/9]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN :resep_kategori.kategori_id:
+AND `resep`.`id` != :resep.id:
+GROUP BY `resep`.`id`
+ LIMIT 6', [...], false)
+ 2 APPPATH\Models\ResepModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ResepController.php(204): App\Models\ResepModel->getRekomendasiResep([], '9')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('9')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 18:02:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+AND `resep`.`id` != '9'
+GROUP BY `resep`.`id`
+ LIMIT 6' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN ()
+AND `resep`.`id` != \'9\'
+GROUP BY `resep`.`id`
+ LIMIT 6')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN ()
+AND `resep`.`id` != \'9\'
+GROUP BY `resep`.`id`
+ LIMIT 6')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN :resep_kategori.kategori_id:
+AND `resep`.`id` != :resep.id:
+GROUP BY `resep`.`id`
+ LIMIT 6', [...], false)
+ 4 APPPATH\Models\ResepModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\ResepController.php(204): App\Models\ResepModel->getRekomendasiResep([], '9')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('9')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 18:02:54 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+AND `resep`.`id` != '9'
+GROUP BY `resep`.`id`
+ LIMIT 6' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN ()
+AND `resep`.`id` != \'9\'
+GROUP BY `resep`.`id`
+ LIMIT 6', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN ()
+AND `resep`.`id` != \'9\'
+GROUP BY `resep`.`id`
+ LIMIT 6')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN ()
+AND `resep`.`id` != \'9\'
+GROUP BY `resep`.`id`
+ LIMIT 6')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `resep`.*
+FROM `resep`
+JOIN `resep_kategori` ON `resep_kategori`.`resep_id` = `resep`.`id`
+WHERE `resep_kategori`.`kategori_id` IN :resep_kategori.kategori_id:
+AND `resep`.`id` != :resep.id:
+GROUP BY `resep`.`id`
+ LIMIT 6', [...], false)
+ 5 APPPATH\Models\ResepModel.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\ResepController.php(204): App\Models\ResepModel->getRekomendasiResep([], '9')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResepController->detail('9')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResepController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
+CRITICAL - 2025-05-05 18:48:53 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: GET, Route: /]
+in APPPATH\Views\home\index.php on line 104.
+ 1 APPPATH\Views\home\index.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\laragon\\www\\resep-makanan\\app\\Views\\home\\index.php', 104)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\resep-makanan\\app\\Views\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('home/index', [], true)
+ 5 APPPATH\Controllers\Home.php(25): view('home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\resep-makanan\\public\\index.php')
