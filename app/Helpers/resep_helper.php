@@ -1,4 +1,6 @@
 <?php
+
+// app/Helpers/resep_helper.php
 function format_bahan($bahanJson)
 {
     $bahan = json_decode($bahanJson, true) ?? explode("\n", $bahanJson);

@@ -1,3 +1,5 @@
+<!-- app/Views/resep/detail.php -->
+
 <?= $this->extend('layouts/default') ?>
 
 <?= $this->section('title') ?>Detail Resep <?= $this->endSection() ?>

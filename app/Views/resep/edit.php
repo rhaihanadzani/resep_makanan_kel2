@@ -1,6 +1,8 @@
+<!-- app/Views/resep/edit.php -->
+
 <?= $this->extend('layouts/default') ?>
 
-<?= $this->section('title') ?>Tambah Resep <?= $this->endSection() ?>
+<?= $this->section('title') ?>Edit Resep <?= $this->endSection() ?>
 
 <?= $this->section('content') ?>
 <!-- Main Form -->

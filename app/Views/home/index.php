@@ -1,3 +1,5 @@
+<!-- app/Views/home/index.php -->
+
 <?= $this->extend('layouts/default') ?>
 
 <?= $this->section('title') ?>Beranda | ResepSehat<?= $this->endSection() ?>
@@ -418,8 +420,4 @@
         </div>
     </div>
 </section>
-<?= $this->endSection() ?>
-
-<?= $this->section('scripts') ?>
-<!-- Page-specific scripts can go here -->
 <?= $this->endSection() ?>

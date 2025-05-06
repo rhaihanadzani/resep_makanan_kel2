@@ -1,10 +1,14 @@
 <?php
+// app/Controllers/ResepController.php 
+
 
 namespace App\Controllers;
 
 use App\Models\ResepModel;
 use App\Models\KategoriModel;
 use CodeIgniter\Exceptions\PageNotFoundException;
+
+
 
 class ResepController extends BaseController
 {
@@ -48,7 +52,6 @@ class ResepController extends BaseController
         $namaGambar = $file->getRandomName();
         $file->move('uploads/resep', $namaGambar);
 
-        // Generate slug
         $slug = url_title($this->request->getPost('judul'), '-', true);
 
         //    nyimpen ke database
@@ -92,9 +95,6 @@ class ResepController extends BaseController
             'kategoriDipilih' => $kategoriDipilih
         ]);
     }
-
-
-
 
     // Proses update resep
     public function update($id)
@@ -147,8 +147,7 @@ class ResepController extends BaseController
         return redirect()->to('/')->with('success', 'Resep berhasil diperbarui!');
     }
 
-
-    // Hapus resep
+    // Proses hapus resep
     public function delete($id)
     {
         $db = \Config\Database::connect();
@@ -170,7 +169,6 @@ class ResepController extends BaseController
                 }
             }
 
-            // 3. Hapus data resep
             $this->resepModel->delete($id);
 
             $db->transComplete();
